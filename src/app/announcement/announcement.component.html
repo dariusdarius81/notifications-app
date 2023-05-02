@@ -1,0 +1,8 @@
+<div class="container-announcement">
+    <div class="title">{{title}}</div>
+    <div class="message">{{message}}</div>
+    <div class="author">{{author | byAuthor}}</div>
+    <button mat-icon-button (click)="deleteAnnouncement(id)">
+      <mat-icon>clear</mat-icon>
+    </button>
+</div>
