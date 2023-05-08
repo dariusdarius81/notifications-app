@@ -20,6 +20,8 @@ export class HomeComponent implements OnInit {
 
   }
 
+  //test
+
   ngOnInit() {
     this.AnnouncementService.serviceCall();
     this.AnnouncementService.getAnnouncements().subscribe(announcements => {
